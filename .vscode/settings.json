@@ -1,0 +1,31 @@
+{
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=248"],
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "--disable=E1101",
+        "--disable=C,R",
+        "pylint_django"
+    ],
+    "python.jediEnabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Monokai",
+//    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "D:\\200_Ganbarou_Technology\\5001_soft\\42_powershell7\\7\\pwsh.exe",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "python.languageServer": "Microsoft",
+}
